@@ -1,6 +1,6 @@
 {
     "##": "Latest version of OpenTTD",
-    "version": "20240510-master-ga5c2543efc",
+    "version": "20240511-master-g721cd2b8ad",
     "description": "OpenTTD nightly version",
     "homepage": "https://www.openttd.org/",
     "license": "GPL-2.0-or-later",
@@ -12,20 +12,23 @@
     ],
     "checkver": {
         "url": "https://cdn.openttd.org/openttd-nightlies/latest.yaml",
-        "regex": "([0-9]{8})-master-g([0-9a-f]{10})"
+        "regex": "([0-9]{8}-master-g[0-9a-f]{10})"
     },
     "architecture": {
         "64bit": {
-            "url": "https://cdn.openttd.org/openttd-nightlies/2024/20240510-master-ga5c2543efc/openttd-20240510-master-ga5c2543efc-windows-win64.zip",
-            "extract_dir": "openttd-20240510-master-ga5c2543efc-windows-win64"
+            "url": "https://cdn.openttd.org/openttd-nightlies/2024/20240511-master-g721cd2b8ad/openttd-20240511-master-g721cd2b8ad-windows-win64.zip",
+            "hash": "eeeb6833c5e4d9fb14278087cbc8b60d6a2e95cf97e7f10e4bdb2d3cf462bcaa",
+            "extract_dir": "openttd-20240511-master-g721cd2b8ad-windows-win64"
         },
         "32bit": {
-            "url": "https://cdn.openttd.org/openttd-nightlies/2024/20240510-master-ga5c2543efc/openttd-20240510-master-ga5c2543efc-windows-win32.zip",
-            "extract_dir": "openttd-20240510-master-ga5c2543efc-windows-win32"
+            "url": "https://cdn.openttd.org/openttd-nightlies/2024/20240511-master-g721cd2b8ad/openttd-20240511-master-g721cd2b8ad-windows-win32.zip",
+            "hash": "625326a91ccd599866ab2addbf4a34445b412b9ea7cfb8f58e518e1b7c7878f4",
+            "extract_dir": "openttd-20240511-master-g721cd2b8ad-windows-win32"
         },
         "arm64": {
-            "url": "https://cdn.openttd.org/openttd-nightlies/2024/20240510-master-ga5c2543efc/openttd-20240510-master-ga5c2543efc-windows-arm64.zip",
-            "extract_dir": "openttd-20240510-master-ga5c2543efc-windows-arm64"
+            "url": "https://cdn.openttd.org/openttd-nightlies/2024/20240511-master-g721cd2b8ad/openttd-20240511-master-g721cd2b8ad-windows-arm64.zip",
+            "hash": "87c04d1d34fca1bd761ea4aa579b3d8479098a1bf89e83fc7c464a15e60954bf",
+            "extract_dir": "openttd-20240511-master-g721cd2b8ad-windows-arm64"
         }
     },
     "bin": "openttd.exe",
