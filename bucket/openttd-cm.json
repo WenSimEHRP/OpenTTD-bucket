@@ -9,7 +9,6 @@
         "You may want to download the items from the OpenTTD website.",
         "If you have any problems with the installed version, please consider reinstalling the game."
     ],
-    "checkver": "github",
     "architecture": {
         "64bit": {
             "url": "https://github.com/citymania-org/cmclient/releases/download/14.1/citymania-client-14.1-windows-win64.zip",
@@ -34,6 +33,7 @@
             "OpenTTD-CityMania"
         ]
     ],
+    "checkver": "github",
     "autoupdate": {
         "architecture": {
             "64bit": {

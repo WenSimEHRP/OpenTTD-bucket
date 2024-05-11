@@ -10,10 +10,6 @@
         "Please note that this version is a nightly build and may contain bugs.",
         "If you have any problems with the installed version, please consider reinstalling the game."
     ],
-    "checkver": {
-        "url": "https://cdn.openttd.org/openttd-nightlies/latest.yaml",
-        "regex": "([0-9]{8}-master-g[0-9a-f]{10})"
-    },
     "architecture": {
         "64bit": {
             "url": "https://cdn.openttd.org/openttd-nightlies/2024/20240511-master-g721cd2b8ad/openttd-20240511-master-g721cd2b8ad-windows-win64.zip",
@@ -38,6 +34,10 @@
             "OpenTTD-Nightly"
         ]
     ],
+    "checkver": {
+        "url": "https://cdn.openttd.org/openttd-nightlies/latest.yaml",
+        "regex": "([0-9]{8}-master-g[0-9a-f]{10})"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
