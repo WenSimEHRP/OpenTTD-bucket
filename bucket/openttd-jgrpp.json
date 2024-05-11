@@ -9,7 +9,7 @@
         "You may want to download the items from the OpenTTD website.",
         "If you have any problems with the installed version, please consider reinstalling the game."
     ],
-    "checkver": "github",
+    "checkver": "/releases/tag/jgrpp-(?:v|V)?([\\d.]+)",
     "architecture": {
         "64bit": {
             "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.59.0/openttd-jgrpp-0.59.0-windows-win64.zip",

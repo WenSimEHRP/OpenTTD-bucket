@@ -1,0 +1,54 @@
+{
+    "##": "Latest version of OpenTTD",
+    "version": "20240510-master-ga5c2543efc",
+    "description": "OpenTTD nightly version",
+    "homepage": "https://www.openttd.org/",
+    "license": "GPL-2.0-or-later",
+    "notes": [
+        "This install does not come with graphics, sounds or music.",
+        "You may want to download the items from the OpenTTD website.",
+        "Please note that this version is a nightly build and may contain bugs.",
+        "If you have any problems with the installed version, please consider reinstalling the game."
+    ],
+    "checkver": {
+        "url": "https://cdn.openttd.org/openttd-nightlies/latest.yaml",
+        "regex": "([0-9]{8})-master-g([0-9a-f]{10})"
+    },
+    "architecture": {
+        "64bit": {
+            "url": "https://cdn.openttd.org/openttd-nightlies/2024/20240510-master-ga5c2543efc/openttd-20240510-master-ga5c2543efc-windows-win64.zip",
+            "extract_dir": "openttd-20240510-master-ga5c2543efc-windows-win64"
+        },
+        "32bit": {
+            "url": "https://cdn.openttd.org/openttd-nightlies/2024/20240510-master-ga5c2543efc/openttd-20240510-master-ga5c2543efc-windows-win32.zip",
+            "extract_dir": "openttd-20240510-master-ga5c2543efc-windows-win32"
+        },
+        "arm64": {
+            "url": "https://cdn.openttd.org/openttd-nightlies/2024/20240510-master-ga5c2543efc/openttd-20240510-master-ga5c2543efc-windows-arm64.zip",
+            "extract_dir": "openttd-20240510-master-ga5c2543efc-windows-arm64"
+        }
+    },
+    "bin": "openttd.exe",
+    "shortcuts": [
+        [
+            "openttd.exe",
+            "OpenTTD-Nightly"
+        ]
+    ],
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://cdn.openttd.org/openttd-nightlies/2024/$version/openttd-$version-windows-win64.zip",
+                "extract_dir": "openttd-$version-windows-win64"
+            },
+            "32bit": {
+                "url": "https://cdn.openttd.org/openttd-nightlies/2024/$version/openttd-$version-windows-win32.zip",
+                "extract_dir": "openttd-$version-windows-win32"
+            },
+            "arm64": {
+                "url": "https://cdn.openttd.org/openttd-nightlies/2024/$version/openttd-$version-windows-arm64.zip",
+                "extract_dir": "openttd-$version-windows-arm64"
+            }
+        }
+    }
+}
