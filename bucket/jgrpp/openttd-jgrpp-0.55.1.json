@@ -12,14 +12,17 @@
     "architecture": {
         "64bit": {
             "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.55.1/openttd-jgrpp-0.55.1-windows-win64.zip",
+            "hash": "de4a3cf303fdd1a311f3f25d786f70f9a1f1d29cc894129021f9aec0bee38105",
             "extract_dir": "openttd-jgrpp-0.55.1-windows-win64"
         },
         "32bit": {
             "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.55.1/openttd-jgrpp-0.55.1-windows-win32.zip",
+            "hash": "40a296cd957b7918ca97eeb95b8e0ee9b4b234d2a808e0ec99aa6fd082b2a427",
             "extract_dir": "openttd-jgrpp-0.55.1-windows-win32"
         },
         "arm64": {
             "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.55.1/openttd-jgrpp-0.55.1-windows-arm64.zip",
+            "hash": "23a7aac88c7b5269b0d80a5897fc5ee48dfa207e8214f7acb8979c0de5f4b4dc",
             "extract_dir": "openttd-jgrpp-0.55.1-windows-arm64"
         }
     },

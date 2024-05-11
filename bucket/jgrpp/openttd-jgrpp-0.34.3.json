@@ -1,0 +1,29 @@
+{
+    "##": "Legacy version of JGRPP",
+    "version": "0.34.3",
+    "description": "JGRPP 0.34.3 legacy version",
+    "homepage": "https://github.com/JGRennison/OpenTTD-patches",
+    "license": "GPL-2.0-or-later",
+    "notes": [
+        "This install does not come with graphics, sounds or music.",
+        "You may want to download the items from the OpenTTD website.",
+        "If you have any problems with the installed version, please consider reinstalling the game."
+    ],
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.34.3/openttd-custom-jgrpp-0.34.3-MINGW-win64.zip",
+            "hash": "86c249db6a6a1c62f5c1892000ae3ec8b74f851b878939611b6c0ad57d53e4c3"
+        },
+        "32bit": {
+            "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.34.3/openttd-custom-jgrpp-0.34.3-MINGW-win32.zip",
+            "hash": "0158098cfccc3411685c60a5c41033901370aefdba39a4fe3bec3002ca0d408a"
+        }
+    },
+    "bin": "openttd.exe",
+    "shortcuts": [
+        [
+            "openttd.exe",
+            "OpenTTD-JGRPP [0.34.3]"
+        ]
+    ]
+}
