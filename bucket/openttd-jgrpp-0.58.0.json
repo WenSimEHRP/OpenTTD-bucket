@@ -1,0 +1,29 @@
+{
+    "##": "Latest version of JGRPP",
+    "version": "0.58.0",
+    "description": "JGRPP 0.58.0 legacy version",
+    "homepage": "https://github.com/JGRennison/OpenTTD-patches",
+    "license": "GPL-2.0-or-later",
+    "notes": "This install does not come with graphics, sounds or music. \nYou may want to download the items from the OpenTTD website or via the following command:\nscoop install extras/openttd\n-----\nIf you found that your game cannot launch, consider reinstalling the game.",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.58.0/openttd-jgrpp-0.58.0-windows-win64.zip",
+            "extract_dir": "openttd-jgrpp-0.58.0-windows-win64"
+        },
+        "32bit": {
+            "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.58.0/openttd-jgrpp-0.58.0-windows-win32.zip",
+            "extract_dir": "openttd-jgrpp-0.58.0-windows-win32"
+        },
+        "arm64": {
+            "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.58.0/openttd-jgrpp-0.58.0-windows-arm64.zip",
+            "extract_dir": "openttd-jgrpp-0.58.0-windows-arm64"
+        }
+    },
+    "bin": "openttd.exe",
+    "shortcuts": [
+        [
+            "openttd.exe",
+            "OpenTTD-JGRPP [0.58.0]"
+        ]
+    ]
+}
