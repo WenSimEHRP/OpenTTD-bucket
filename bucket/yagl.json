@@ -1,12 +1,12 @@
 {
-    "version": "1.2",
+    "version": "1.2.2",
     "description": "YAGL is a tool for (de)compiling NewGRF files for OpenTTD.",
     "homepage": "https://github.com/UnicycleBloke/yagl",
     "license": "GPL-2.0-or-later",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/UnicycleBloke/yagl/releases/download/v1.2/yagl-v1.2-windows-10.zip",
-            "hash": "c7a73ff52e10c7ff69751039bfd0e734db948fb60910387a5e6320e385b43c43"
+            "url": "https://github.com/UnicycleBloke/yagl/releases/download/v1.2.2/yagl.exe",
+            "hash": "29967d959e288a0e2b53a46d863982f2e757fd6049b134b5ca3f109938e78fa4"
         }
     },
     "bin": "yagl.exe",
@@ -14,7 +14,7 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://github.com/UnicycleBloke/yagl/releases/download/v$version/yagl-v$version-windows-10.zip"
+                "url": "https://github.com/UnicycleBloke/yagl/releases/download/v$version/yagl.exe"
             }
         }
     }
