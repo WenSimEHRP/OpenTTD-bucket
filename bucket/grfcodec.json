@@ -3,7 +3,7 @@
     "description": "Grfcodec is a tool for (de)compiling NewGRF files for OpenTTD.",
     "homepage": "https://github.com/OpenTTD/grfcodec",
     "license": "GPL-2.0-only",
-    "notes":[
+    "notes": [
         "This install includes four tools:",
         "grfcodec, grfid, grfstrip, and nforenum."
     ],

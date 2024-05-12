@@ -1,0 +1,30 @@
+{
+    "version": "0.7.0-RC2",
+    "description": "OpenTTD 0.7.0-RC2 legacy version",
+    "homepage": "https://www.openttd.org/",
+    "license": "GPL-2.0-or-later",
+    "notes": [
+        "This install does not come with graphics, sounds or music.",
+        "You may want to download the items from the OpenTTD website.",
+        "If you have any problems with the installed version, please consider reinstalling the game."
+    ],
+    "architecture": {
+        "32bit": {
+            "url": "https://cdn.openttd.org/openttd-releases/0.7.0-RC2/openttd-0.7.0-RC2-windows-win32.zip",
+            "hash": "e697fa10e7f86b31fa07f329307b07e2353efc61301dede5f253addff27acc04",
+            "extract_dir": "openttd-0.7.0-RC2-windows-win32"
+        },
+        "64bit": {
+            "url": "https://cdn.openttd.org/openttd-releases/0.7.0-RC2/openttd-0.7.0-RC2-windows-win64.zip",
+            "hash": "c2d22420d283c302c7de895137ac6bb419162acd1084997efa5a55de0e11c49b",
+            "extract_dir": "openttd-0.7.0-RC2-windows-win64"
+        }
+    },
+    "bin": "openttd.exe",
+    "shortcuts": [
+        [
+            "openttd.exe",
+            "OpenTTD [0.7.0-RC2]"
+        ]
+    ]
+}

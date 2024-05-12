@@ -1,0 +1,30 @@
+{
+    "version": "0.7.4",
+    "description": "OpenTTD 0.7.4 legacy version",
+    "homepage": "https://www.openttd.org/",
+    "license": "GPL-2.0-or-later",
+    "notes": [
+        "This install does not come with graphics, sounds or music.",
+        "You may want to download the items from the OpenTTD website.",
+        "If you have any problems with the installed version, please consider reinstalling the game."
+    ],
+    "architecture": {
+        "32bit": {
+            "url": "https://cdn.openttd.org/openttd-releases/0.7.4/openttd-0.7.4-windows-win32.zip",
+            "hash": "5ee16f3fb6d2fec91176f7d576be43816f4b5b4fac7d8973fd2d2f9aaa89c842",
+            "extract_dir": "openttd-0.7.4-windows-win32"
+        },
+        "64bit": {
+            "url": "https://cdn.openttd.org/openttd-releases/0.7.4/openttd-0.7.4-windows-win64.zip",
+            "hash": "dc8b4634080ddc41da9b786297cb39210e237bb2edcaf83a2f74e1451cc759db",
+            "extract_dir": "openttd-0.7.4-windows-win64"
+        }
+    },
+    "bin": "openttd.exe",
+    "shortcuts": [
+        [
+            "openttd.exe",
+            "OpenTTD [0.7.4]"
+        ]
+    ]
+}
