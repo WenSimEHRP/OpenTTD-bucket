@@ -2,13 +2,18 @@
 
 [![Tests](https://github.com/WenSimEHRP/OpenTTD-Buckets/actions/workflows/ci.yml/badge.svg)](https://github.com/WenSimEHRP/OpenTTD-Buckets/actions/workflows/ci.yml) [![Excavator](https://github.com/WenSimEHRP/OpenTTD-Buckets/actions/workflows/excavator.yml/badge.svg)](https://github.com/WenSimEHRP/OpenTTD-Buckets/actions/workflows/excavator.yml)
 
-This is a bucket created for [Scoop](https://scoop.sh). This bucket will contain various versions of OpenTTD, allowing users to choose and download as per their needs.
+This is a bucket created for [Scoop](https://scoop.sh). This bucket contains manifests of various versions of OpenTTD, including patched and legacy versions, and a handful of OpenTTD related tools.
 
-## How do I install these manifests?
+## Installing
 
-After manifests have been committed and pushed, run the following:
+To install an application, simply open Powershell and run the following commands:
 
-```pwsh
-scoop bucket add OpenTTD-Buckets https://github.com/WenSimEHRP/OpenTTD-Buckets
-scoop install OpenTTD-Buckets/<manifestname>
+```ps
+# add bucket
+scoop bucket add openttd-bucket https://github.com/WenSimEHRP/OpenTTD-bucket
+
+# install applications, say openttd-nightly
+scoop install openttd-bucket/openttd-nightly
+# or
+scoop install openttd-nightly
 ```
