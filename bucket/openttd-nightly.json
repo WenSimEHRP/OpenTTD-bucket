@@ -41,15 +41,15 @@
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn.openttd.org/openttd-nightlies/2024/$version/openttd-$version-windows-win64.zip",
+                "url": "https://cdn.openttd.org/openttd-nightlies/2025/$version/openttd-$version-windows-win64.zip",
                 "extract_dir": "openttd-$version-windows-win64"
             },
             "32bit": {
-                "url": "https://cdn.openttd.org/openttd-nightlies/2024/$version/openttd-$version-windows-win32.zip",
+                "url": "https://cdn.openttd.org/openttd-nightlies/2025/$version/openttd-$version-windows-win32.zip",
                 "extract_dir": "openttd-$version-windows-win32"
             },
             "arm64": {
-                "url": "https://cdn.openttd.org/openttd-nightlies/2024/$version/openttd-$version-windows-arm64.zip",
+                "url": "https://cdn.openttd.org/openttd-nightlies/2025/$version/openttd-$version-windows-arm64.zip",
                 "extract_dir": "openttd-$version-windows-arm64"
             }
         }
