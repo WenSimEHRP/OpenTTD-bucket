@@ -1,6 +1,6 @@
 {
     "##": "Latest version of OpenTTD",
-    "version": "20250201-master-g23dcb4f4a7",
+    "version": "20250202-master-g52ded73b21",
     "description": "OpenTTD nightly version",
     "homepage": "https://www.openttd.org/",
     "license": "GPL-2.0-or-later",
@@ -12,19 +12,19 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://cdn.openttd.org/openttd-nightlies/2025/20250201-master-g23dcb4f4a7/openttd-20250201-master-g23dcb4f4a7-windows-win64.zip",
-            "hash": "bd0bc32ef53bddef764383b0db55443e30c8306ffbdd98ab869ef36d59e8b273",
-            "extract_dir": "openttd-20250201-master-g23dcb4f4a7-windows-win64"
+            "url": "https://cdn.openttd.org/openttd-nightlies/2025/20250202-master-g52ded73b21/openttd-20250202-master-g52ded73b21-windows-win64.zip",
+            "hash": "c2c2e2d8e6b4dff0ed04baba9db2b38bf849959eeec58a7aae1206cccae95e79",
+            "extract_dir": "openttd-20250202-master-g52ded73b21-windows-win64"
         },
         "32bit": {
-            "url": "https://cdn.openttd.org/openttd-nightlies/2025/20250201-master-g23dcb4f4a7/openttd-20250201-master-g23dcb4f4a7-windows-win32.zip",
-            "hash": "8297e0d21a2236339d3edac766ed448dd266cd531a2d73b356456db978fb9315",
-            "extract_dir": "openttd-20250201-master-g23dcb4f4a7-windows-win32"
+            "url": "https://cdn.openttd.org/openttd-nightlies/2025/20250202-master-g52ded73b21/openttd-20250202-master-g52ded73b21-windows-win32.zip",
+            "hash": "79a9b27a12742dbbb604706fd6e1bbd9d29a82c2d05614846c8b2efa6a60fe3a",
+            "extract_dir": "openttd-20250202-master-g52ded73b21-windows-win32"
         },
         "arm64": {
-            "url": "https://cdn.openttd.org/openttd-nightlies/2025/20250201-master-g23dcb4f4a7/openttd-20250201-master-g23dcb4f4a7-windows-arm64.zip",
-            "hash": "90dd9fa532361007fa6411faa74551e8803c70021fd365403b755dc972069968",
-            "extract_dir": "openttd-20250201-master-g23dcb4f4a7-windows-arm64"
+            "url": "https://cdn.openttd.org/openttd-nightlies/2025/20250202-master-g52ded73b21/openttd-20250202-master-g52ded73b21-windows-arm64.zip",
+            "hash": "022f95145a65bf02ae85d78edd613e765f34fb5a6c0116d4f9fd64167cae7be9",
+            "extract_dir": "openttd-20250202-master-g52ded73b21-windows-arm64"
         }
     },
     "bin": "openttd.exe",
