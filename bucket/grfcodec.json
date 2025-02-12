@@ -25,7 +25,10 @@
         "bin/grfstrip.exe",
         "bin/nforenum.exe"
     ],
-    "checkver": "github",
+    "checkver": {
+        "github": "OpenTTD/grfcodec",
+        "regex": "grfcodec-([\\d.]+)-windows"
+    },
     "autoupdate": {
         "architecture": {
             "64bit": {
@@ -39,3 +42,4 @@
         }
     }
 }
+
