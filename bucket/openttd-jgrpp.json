@@ -1,6 +1,6 @@
 {
     "##": "Latest version of JGRPP",
-    "version": "0.68.2",
+    "version": "0.69.0",
     "description": "The classic simulation game with enhanced features and loads of improvements.",
     "homepage": "https://github.com/JGRennison/OpenTTD-patches",
     "license": "GPL-2.0-or-later",
@@ -13,19 +13,19 @@
     ],
     "architecture": {
         "64bit": {
-            "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.68.2/openttd-jgrpp-0.68.2-windows-win64.zip",
-            "hash": "af1be801577f32f33a806126af32aba86c7dfa33bcfd3c9da735a0b8d9798d1b",
-            "extract_dir": "openttd-jgrpp-0.68.2-windows-win64"
+            "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.69.0/openttd-jgrpp-0.69.0-windows-win64.zip",
+            "hash": "d3250184112842b4b2809ab57821501f71a5d342dddcc26b4414621f98fcda70",
+            "extract_dir": "openttd-jgrpp-0.69.0-windows-win64"
         },
         "32bit": {
-            "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.68.2/openttd-jgrpp-0.68.2-windows-win32.zip",
-            "hash": "a472f501e81bbdb2351fda5a32167b5927f3ed122ffb00ae302c88b436c35c33",
-            "extract_dir": "openttd-jgrpp-0.68.2-windows-win32"
+            "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.69.0/openttd-jgrpp-0.69.0-windows-win32.zip",
+            "hash": "82a48ecb63101db73cdece5c1d841dcd820407f2f625635ed875e2cd28ec89e1",
+            "extract_dir": "openttd-jgrpp-0.69.0-windows-win32"
         },
         "arm64": {
-            "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.68.2/openttd-jgrpp-0.68.2-windows-arm64.zip",
-            "hash": "0fccecb88e9a4827b97ac4c52da7c32ade703979aebb02f5ffa0e5b6df411188",
-            "extract_dir": "openttd-jgrpp-0.68.2-windows-arm64"
+            "url": "https://github.com/JGRennison/OpenTTD-patches/releases/download/jgrpp-0.69.0/openttd-jgrpp-0.69.0-windows-arm64.zip",
+            "hash": "2c9cd2b009c080691965a492282aba0b7b3b0a231eae1c0d1ea4f4135b7e5dc1",
+            "extract_dir": "openttd-jgrpp-0.69.0-windows-arm64"
         }
     },
     "bin": "openttd.exe",
