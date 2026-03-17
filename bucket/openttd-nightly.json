@@ -36,20 +36,20 @@
     ],
     "checkver": {
         "url": "https://cdn.openttd.org/openttd-nightlies/latest.yaml",
-        "regex": "([0-9]{8}-master-g[0-9a-f]{10})"
+        "regex": "([0-9]{8}-master-g[0-9a-f]{10})[\s\S]+?folder:\s(\d{4})"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://cdn.openttd.org/openttd-nightlies/2026/$version/openttd-$version-windows-win64.zip",
+                "url": "https://cdn.openttd.org/openttd-nightlies/$matchFolder/$matchVersion/openttd-$version-windows-win64.zip",
                 "extract_dir": "openttd-$version-windows-win64"
             },
             "32bit": {
-                "url": "https://cdn.openttd.org/openttd-nightlies/2026/$version/openttd-$version-windows-win32.zip",
+                "url": "https://cdn.openttd.org/openttd-nightlies/$matchFolder/$matchVersion/openttd-$version-windows-win32.zip",
                 "extract_dir": "openttd-$version-windows-win32"
             },
             "arm64": {
-                "url": "https://cdn.openttd.org/openttd-nightlies/2026/$version/openttd-$version-windows-arm64.zip",
+                "url": "https://cdn.openttd.org/openttd-nightlies/$matchFolder/$matchVersion/openttd-$version-windows-arm64.zip",
                 "extract_dir": "openttd-$version-windows-arm64"
             }
         }
