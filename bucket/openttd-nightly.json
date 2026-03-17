@@ -36,7 +36,7 @@
     ],
     "checkver": {
         "url": "https://cdn.openttd.org/openttd-nightlies/latest.yaml",
-        "regex": "([0-9]{8}-master-g[0-9a-f]{10})[\s\S]+?folder:\s(\d{4})"
+        "regex": "([0-9]{8}-master-g[0-9a-f]{10})[\\s\\S]+?folder:\\s(\\d{4})"
     },
     "autoupdate": {
         "architecture": {
